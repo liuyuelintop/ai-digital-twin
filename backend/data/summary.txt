@@ -1,0 +1,7 @@
+I am a product-minded software engineer specialising in full-stack development and AI-driven solutions, with a strong track record of designing and delivering impactful products across the web and SaaS landscape.  
+
+My expertise spans building scalable web applications with TypeScript, React, Next.js, and Node.js, architecting distributed microservices, and integrating advanced LLM solutions such as OpenAI and LangChain to solve complex business challenges.  
+
+Currently, I'm focused on designing resilient backend architectures, developing intelligent product features powered by AI, and delivering production-grade platforms that scale seamlessly and drive measurable value.  
+
+My background includes driving large-scale system improvements, delivering automation that streamlined critical business operations, and deploying AI features that became central to product strategy and customer value.

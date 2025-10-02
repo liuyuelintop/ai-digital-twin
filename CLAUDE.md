@@ -65,10 +65,15 @@ npm run lint
 ## Environment Setup
 
 Backend requires:
-- Python >=3.13
+- Python >=3.12 (uses 3.12 for AWS Lambda compatibility)
 - `OPENAI_API_KEY` environment variable
 - Optional: `CORS_ORIGINS` (comma-separated URLs)
+- Optional: `USE_S3=true` and `S3_BUCKET=bucket-name` for S3 storage instead of local files
 
 Frontend requires:
 - Node.js (with npm/pnpm)
 - No environment variables needed (API URL hardcoded)
+
+## Deployment
+
+The backend is designed to be deployed to AWS Lambda. A `deploy.py` script packages dependencies using Docker with the AWS Lambda Python 3.12 runtime image to ensure compatibility.

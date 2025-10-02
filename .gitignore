@@ -29,6 +29,10 @@ frontend/next-env.d.ts
 # Memory and session data
 memory/*.json
 
+# Lambda
+lambda-deployment.zip
+lambda-package/
+
 # OS
 .DS_Store
 Thumbs.db
