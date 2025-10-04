@@ -58,6 +58,9 @@ jobs:
           cache: 'npm'
           cache-dependency-path: frontend/package-lock.json
 
+      - name: Install pnpm
+        run: npm install -g pnpm
+
       - name: Run Deployment Script
         run: |
           # Set environment variables for the script
