@@ -1,62 +1,41 @@
-# Environment variables and secrets
-.env
-.env.*
-!.env.example
-
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-backend/.venv/
-backend/venv/
-backend/uv.lock
-*.egg-info/
-.pytest_cache/
-__pycache__/
-*.pyc
-.venv/
-uv.lock
-
-# Node
-frontend/node_modules/
-frontend/.next/
-frontend/out/
-frontend/.pnpm-debug.log*
-frontend/npm-debug.log*
-frontend/yarn-debug.log*
-frontend/yarn-error.log*
-frontend/*.tsbuildinfo
-frontend/next-env.d.ts
-
-# Memory and session data
-memory/*.json
-
 # Terraform
 *.tfstate
 *.tfstate.*
 .terraform/
 .terraform.lock.hcl
 terraform.tfstate.d/
-*.tfvars
-!terraform.tfvars
-!prod.tfvars
+*.tfvars.secret
 
-# Lambda
+# Lambda packages
 lambda-deployment.zip
 lambda-package/
 
-# OS
-.DS_Store
-Thumbs.db
+# Memory storage (contains conversation history)
+memory/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+out/
+.next/
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
 
 # IDE
 .vscode/
 .idea/
 *.swp
-*.swo
-*~
+.DS_Store
+Thumbs.db
 
-# Logs
-*.log
+# AWS
+.aws/
